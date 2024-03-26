@@ -1,0 +1,31 @@
+//
+// Evaluation component ILIAS plugin for the assistance system developed as part of the VerDatAs project
+// Copyright (C) 2023-2024 TU Dresden (Tommy Kubica)
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+//
+<!-- language file start -->
+configuration#:#Konfiguration
+backend_url#:#TAS-Backend URL
+missing_lrs_type#:#Bevor Sie mit der Konfiguration fortfahren, fügen Sie bitte einen LRS-Typ über das Untermenü "LRS" in "ILIAS erweitern" hinzu.
+lrs_type#:#LRS-Typ (definiert die Identifikation der Benutzer)
+show_lecturer_view#:#Allen die Lehrenden-Ansicht anzeigen
+true#:#Ja
+false#:#Nein
+xapi_version#:#xAPI Version
+xapi_version_placeholder#:#z.B.: 1.0.3
+store_id#:#LRS Store ID
+store_id_placeholder#:#z.B.: 64da19edd0dd66b327e974a7
+no_access_message#:#Sie haben keinen Zugriff auf diese Seite.
+statistics#:#Statistiken
