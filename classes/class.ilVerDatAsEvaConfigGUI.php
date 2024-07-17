@@ -162,7 +162,7 @@ class ilVerDatAsEvaConfigGUI extends ilPluginConfigGUI
     protected function readBackendURL(): string
     {
         $settings = new ilSetting(ilVerDatAsEvaPlugin::PLUGIN_ID);
-        return $settings->get('backend_url');
+        return $settings->get('backend_url', '');
     }
 
     /**
@@ -228,7 +228,7 @@ class ilVerDatAsEvaConfigGUI extends ilPluginConfigGUI
     protected function readXapiVersion(): string
     {
         $settings = new ilSetting(ilVerDatAsEvaPlugin::PLUGIN_ID);
-        return $settings->get('xapi_version');
+        return $settings->get('xapi_version', '');
     }
 
     /**
@@ -250,7 +250,7 @@ class ilVerDatAsEvaConfigGUI extends ilPluginConfigGUI
     protected function readStoreId(): string
     {
         $settings = new ilSetting(ilVerDatAsEvaPlugin::PLUGIN_ID);
-        return $settings->get('store_id');
+        return $settings->get('store_id', '');
     }
 
     /**

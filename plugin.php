@@ -19,7 +19,7 @@
  */
 
 $id = "veva";
-$version = "0.2.0";
+$version = "0.2.1";
 $ilias_min_version = "8.0";
 $ilias_max_version = "8.999";
 $responsible = "TU Dresden";
